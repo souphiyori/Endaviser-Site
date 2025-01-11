@@ -234,21 +234,16 @@ main ol li p {
   }
 }
 
-
-
-
-/* Contact Section Container */
 .contact-section {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: #f9f9f9;
+  background-color: #fbfbf8;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(101, 76, 20, 0.1);
   text-align: center;
 }
 
-/* Contact Section Heading */
 .contact-section h2 {
   font-family: 'Merriweather', serif;
   font-size: 2.5rem;
@@ -256,21 +251,18 @@ main ol li p {
   margin-bottom: 1rem;
 }
 
-/* Contact Section Paragraph */
 .contact-section p {
   font-size: 1.1rem;
   color: #515151;
   margin-bottom: 2rem;
 }
 
-/* Contact Form Styling */
 form {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-/* Form Labels */
 label {
   display: block;
   margin-bottom: 0.5rem;
@@ -279,7 +271,6 @@ label {
   text-align: left;
 }
 
-/* Input Fields & Textarea */
 input, textarea {
   width: 100%;
   padding: 0.75rem;
@@ -289,13 +280,6 @@ input, textarea {
   font-family: 'Open Sans', sans-serif;
 }
 
-input:focus, textarea:focus {
-  border-color: #00274d;
-  outline: none;
-  box-shadow: 0 0 5px rgba(0, 39, 77, 0.3);
-}
-
-/* Submit Button - Matches CTA Button */
 form .cta-button {
   background-color: #A28963;
   color: #f5f5ee;
@@ -305,18 +289,17 @@ form .cta-button {
   text-decoration: none;
   text-align: center;
   border-radius: 5px;
+  border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 form .cta-button:hover {
   background-color: #00274d;
-  transform: translateY(-2px);
 }
 
-/* Form Field Grouping */
 .form-group {
   text-align: left;
+  padding-right: 30px;
 }
 
 /* Adjustments for Mobile Devices */
